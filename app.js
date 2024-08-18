@@ -3,6 +3,7 @@ const mongoose = require('mongoose');
 const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const indexRoutes = require('./routes/index');
+const expressLayouts = require('express-ejs-layouts');
 
 dotenv.config();
 
